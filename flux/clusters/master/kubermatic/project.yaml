@@ -1,0 +1,8 @@
+apiVersion: kubermatic.k8s.io/v1
+kind: Project
+metadata:
+  name: mrfixr2k2f
+spec:
+  name: demo
+status:
+  phase: Active

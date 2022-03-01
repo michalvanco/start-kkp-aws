@@ -1,0 +1,8 @@
+apiVersion: kubermatic.k8s.io/v1
+kind: UserProjectBinding
+metadata:
+  name: omfrgczljg
+spec:
+  group: owners-mrfixr2k2f
+  projectId: mrfixr2k2f
+  userEmail: michal@kubermatic.com

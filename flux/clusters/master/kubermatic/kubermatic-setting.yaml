@@ -1,0 +1,39 @@
+apiVersion: kubermatic.k8s.io/v1
+kind: KubermaticSetting
+metadata:
+  name: globalsettings
+spec:
+  cleanupOptions:
+    Enabled: true
+    Enforced: false
+  clusterTypeOptions: 1
+  customLinks:
+    - icon: ""
+      label: API
+      location: default
+      url: https://start-kkp-aws.lab.kubermatic.io/rest-api
+    - icon: ""
+      label: Prometheus
+      location: default
+      url: https://prometheus.start-kkp-aws.lab.kubermatic.io
+    - icon: ""
+      label: Alertmanager
+      location: default
+      url: https://alertmanager.start-kkp-aws.lab.kubermatic.io
+    - icon: ""
+      label: Grafana
+      location: default
+      url: https://grafana.start-kkp-aws.lab.kubermatic.io
+    - icon: ""
+      label: Karma
+      location: default
+      url: https://karma.start-kkp-aws.lab.kubermatic.io
+
+  defaultNodeCount: 2
+  displayAPIDocs: true
+  displayDemoInfo: false
+  displayTermsOfService: false
+  enableDashboard: true
+  enableOIDCKubeconfig: false
+  restrictProjectCreation: false
+  userProjectsLimit: 0
